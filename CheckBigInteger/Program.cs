@@ -14,7 +14,7 @@ namespace CheckBigInteger
             {
                 try
                 {
-                    big *= big;
+                    big = big * big; // тоже самое
 
                     Console.WriteLine("\n\n\n\n");
                     Console.WriteLine(big);
